@@ -9,7 +9,7 @@ services:
     ######## build from Dockerfile ###########
     build:
       context: ../
-      dockerfile: ./docker/Dockerfile
+      dockerfile: ./docker/Dockerfile-cn
     ######## End -> build from Dockerfile ###########
 
     environment:
